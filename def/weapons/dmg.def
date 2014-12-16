@@ -79,7 +79,7 @@ entityDef weapon_dmg
 
 	"spawnclass"				"idItem"
 	"weaponclass"				"rvWeaponDarkMatterGun"
-	"size"						"32 32 32"
+	"size"						"100 100 100"
   	"model_view"				"weapon_dmg_view"
   	"model_view_strogg"			"weapon_dmg_view_strogg"
   	"model_world"				"weapon_dmg_world"
@@ -93,7 +93,7 @@ entityDef weapon_dmg
 	"joint_world_flash"			"muzzle_flash"
 	"joint_core"				"inner_ring"
 
-	"fireRate"					"2"
+	"fireRate"					".001"
 	"spread"					"0"
 
 	"inv_weapon"				"weapon_dmg"
@@ -124,7 +124,7 @@ entityDef weapon_dmg
 	"flashTime"					".1"
 	"flashViewOffset"			"15 -5 -5"
 
-	"chargeDuration"			"4"
+	"chargeDuration"			".01"
 
 	"mtr_guiLightShader"		"lights/viewWeaponGuiLight"
 

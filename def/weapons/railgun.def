@@ -84,7 +84,7 @@ entityDef weapon_railgun
   	"joint_view_barrel"			"srocket_muzzle_flash"
 	"joint_world_flash"			"muzzle_flash"
 
-	"fireRate"				"1.6"
+	"fireRate"				".001"
 	"spread"				"0"
 
 	"inv_weapon"				"weapon_railgun"
@@ -159,7 +159,7 @@ entityDef weapon_railgun
 	"weaponOffsetTime"			"600"
 	"weaponOffsetScale"			"0.003"
 
-	"zoomFov"					"40"
+	"zoomFov"					"30"
 	"zoomTime"					".1"
 	"zoomHideCrosshair"			"0"
 	"gui_zoom"					"guis/weapons/railgun_scope.gui"
@@ -173,7 +173,7 @@ entityDef weapon_railgun_mp
 	"model_view" 				"weapon_railgun_view_mp"
 	"editor_ignore"				"1"
 	"clipsize"				"0"
-	"fireRate"				"20.0"
+	"fireRate"				"1.5"
 	"inv_icon"				"gfx/guis/hud/icons/item_railgun_colored.tga"
 	"mtr_simple_icon"		"simpleicons/item_railgun_colored.tga"
 	"simple_icon_scale"			"32.0"

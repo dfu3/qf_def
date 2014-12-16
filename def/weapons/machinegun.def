@@ -87,22 +87,22 @@ entityDef weapon_machinegun
 	"joint_world_flash"			"muzzle_flash"
 
 	"inv_weapon"				"weapon_machinegun"
-	"inv_start_ammo_machinegun"		"40"
+	"inv_start_ammo_machinegun"		"400"
 	"inv_item"					"1"
 	"inv_icon"					"gfx/guis/hud/icons/item_machinegun.tga"
 	"inv_name"					"#str_107406"
 
-	"fireRate"					".1"
-	"spread"					"2"
+	"fireRate"					".2"
+	"spread"					"10"
 
 	"mtr_crosshair"				"gfx/guis/crosshairs/crosshair_machinegun"
-	"def_hitscan"				"hitscan_bullet"
+	"def_hitscan"				"hitscan_railgun"
 	"def_althitscan"			"hitscan_zoomed_bullet"
 	
-	"ammoType"					"ammo_machinegun"
+	"ammoType"					"ammo_railgun"
 	"ammoRequired"				"1"
 	"clipSize"					"40"
-	"lowAmmo"					"10"
+	"lowAmmo"					"0"
 	"gui"						"guis/weapons/machinegun_ammo.gui"
 	"gui2"						"guis/weapons/machinegun_inview_scope.gui"
 
@@ -173,7 +173,7 @@ entityDef weapon_machinegun
 
 	// Scope / Zoom
 	"spreadzoom"				"0"
-	"zoomFov"					"50"
+	"zoomFov"					"15"
 	"zoomTime"					".1"
 	"zoomHideCrosshair"			"0"
 	"gui_zoom"					"guis/weapons/machinegun_scope.gui"
@@ -195,7 +195,7 @@ entityDef weapon_machinegun_mp
   	
   	// use q3 style spread in MP
   	"machinegunSpreadStyle"			"1"
-  	"spread"				"0"
+  	"spread"				"200"
   	"spreadZoom"				"150"
   	"editor_ignore"				"1"
   	

@@ -66,7 +66,7 @@ entityDef weapon_hyperblaster
   	"model_world"				"weapon_hyperblaster_world"
 	"model"						"models/weapons/hyperblaster/w_hb.lwo"
 	"def_dropItem"				"weapon_hyperblaster"
-	"def_projectile"			"projectile_hyperblaster"
+	"def_projectile"			"projectile_nail"
 
 	"joint_attach"				"HB_ATTACHER"
 	"joint_view_guiLight"		"body"
@@ -78,8 +78,8 @@ entityDef weapon_hyperblaster
 	"crosshairOffsetX"			"0"
 	"crosshairOffsetY"			"0"
 
-	"fireRate"					".08"
-	"spread"					"2"
+	"fireRate"					".02"
+	"spread"					"3"
 	"spread_mp"					"0"
 
 	"inv_weapon"				"weapon_hyperblaster"
@@ -88,11 +88,11 @@ entityDef weapon_hyperblaster
 	"inv_name"					"#str_107404"	
 
 	"weaponname"				"HyperBlaster"
-	"ammoType"					"ammo_hyperblaster"
-	"inv_start_ammo_hyperblaster"		"60"
+	"ammoType"					"ammo_nailgun"
+	"inv_start_ammo_hyperblaster"		"100"
 	"ammoRegenStep"				"5"
 	"ammoRegenTime"				"1500"
-	"clipSize"					"60"									// large for smooth regen
+	"clipSize"					"100"									// large for smooth regen
 	"ammoRequired"				"1"										// ammo is handled in the script file
 	"gui"						"guis/weapons/hyperblaster_ammo.gui"
 	"mtr_icon"					"gfx/guis/hud/icons/gun_hyperblaster"
